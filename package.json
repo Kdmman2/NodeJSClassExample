@@ -4,7 +4,7 @@
   "description": "todo-app",
   "main": "index.js",
   "scripts": {
-      "start":"node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +17,8 @@
     "url": "https://github.com/Kdmman2/NodeJSClassExample/issues"
   },
   "homepage": "https://github.com/Kdmman2/NodeJSClassExample#readme",
-  "engines":{
-      "node": "12.x"
+  "engines": {
+    "node": "12.x"
   },
   "dependencies": {
     "ejs": "^3.1.5",

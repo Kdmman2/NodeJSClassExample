@@ -4,14 +4,15 @@ var bodyParser = require("body-parser");
 //create express object, call express
 var app = express();
 const port = process.env.PORT || 3000;
-
 //tell application to use EJS for templates
 app.set('view engine', 'ejs');
+//make styles public
+app.use(express.static('public'));
 //tell app to use Body parser
 app.use(bodyParser.urlencoded({extended: true}));
 
 //Couple of items todo
-var tasks = ["make it to class", "take child to daycare"];
+var tasks = ["Procrastinate", "Do homework last minute"];
 
 //completed items
 var completed = ["extra work"];
